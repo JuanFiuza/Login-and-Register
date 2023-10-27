@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+/*----------------------------------------------------*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #191816 inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #a9afb9 !important;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+/*----------------------------------------------------*/
+body {
+  background-color: #222;
+}
+.Form {
+  width: 37.5rem;
+  height: 37.5rem;
+  flex-shrink: 0;
+  border-radius: 2.625rem;
+  display: grid;
+  background-color: #191816;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*----------------------------------------------------*/
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  margin-top: -9%;
+}
+.cabecalho h1 {
+  color: #fff;
+  font-family: Poppins;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cabecalho img {
+  padding-right: 10px;
+  vertical-align: -5px;
+}
+.cabecalho p {
+  display: flex;
+  margin-top: -6%;
+  color: #afb6c2;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+}
+/*----------------------------------------------------*/
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user label {
+  color: #afb6c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.user input {
+  width: 21rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  background-color: unset;
+  background-image: url(../img/user.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+  padding-left: 3em;
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.user input::placeholder {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.user input:focus {
+  border: 2px solid #00fff0;
+  background-image: url(../img/user-focus.svg);
+}
+/*----------------------------------------------------*/
+.email-register {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.email-register label {
+  color: #afb6c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.email-register input {
+  width: 21rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  background-color: unset;
+  background-image: url(../img/email.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+  padding-left: 3em;
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.email-register input::placeholder {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.email-register input:focus {
+  border: 2px solid #00fff0;
+  background-image: url(../img/email-focus.svg);
+}
+/*----------------------------------------------------*/
+.password-register {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.password-register label {
+  color: #afb6c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.password-register input {
+  width: 21rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  background-color: unset;
+  background-image: url(../img/lock.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+  padding-left: 3em;
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.password-register input::placeholder {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.password-register input:focus {
+  border: 2px solid #00fff0;
+  background-image: url(../img/lock-focus.svg);
+}
+/*----------------------------------------------------*/
+.confirm-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.confirm-password label {
+  color: #afb6c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.confirm-password input {
+  width: 21rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  background-color: unset;
+  background-image: url(../img/lock.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+  padding-left: 3em;
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.confirm-password input::placeholder {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.confirm-password input:focus {
+  border: 2px solid #00fff0;
+  background-image: url(../img/lock-focus.svg);
+}
+/*----------------------------------------------------*/
+.terms {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+}
+.terms label {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.terms a {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-weight: 600;
+  text-decoration: none;
+}
+.terms input[type="checkbox"] {
+  appearance: none;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  width: 20px;
+  height: 20px;
+}
+.terms input[type="checkbox"]:checked {
+  border-color: #00fff0;
+  background: url(../img/checkbox.svg) no-repeat #00fff0;
+  background-position: 0.1rem;
+}
+/*----------------------------------------------------*/
+.btn button {
+  margin-top: 10%;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  color: #001432;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.01688rem;
+  text-transform: uppercase;
+  align-items: center;
+  flex-direction: column;
+  width: 21rem;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  background: #00fff0;
+}
+/*----------------------------------------------------*/
+@media (max-width: 800px) {
+  body {
+    background-color: #191816;
+  }
+}
+/*----------------------------------------------------*/
