@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="./img/login.svg">
     <title>Login</title>
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <div>
-        <h1>Faça seu login</h1>
+    <div class="Form">
+    <div id="cabecalho">
+        <h1><span><img src="./img/login.svg" alt=""></span>Faça seu login</h1>
         <p>Entre com suas informações de cadastro.</p>
     </div>
-<div id="Form">
     <form action="">
-        <div>
+        <div class="email">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
         </div>
-        <div>
+        <div class="password">
             <label for="senha">Senha</label>
             <input type="password" name="pasword" id="password" placeholder="Digite sua senha" required>
         </div>
-        <div>
-            <input type="checkbox" name="remember" id="remember">
-            <label for="remember">Lembre-me</label>
-        </div>
-        <div>
-            <a href="./recuperacao.html" target="_blank">Esqueci minha senha</a>
-        </div>
-        <div>
+<div class="aling-remeber-and-forgout">
+    <div class="remember">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Lembre-me</label>
+    </div>
+    <div class="forgout">
+        <a href="./recuperacao.html" target="_blank">Esqueci minha senha</a>
+    </div>
+</div>
+        <div class="btn">
             <button type="submit">ENTRAR</button>
         </div>
-        <div>
+        <div class="register">
             <a href="./register.html" target="_blank">Não tem uma conta? <b>Registre-se</b></a>
         </div>
     </form>
