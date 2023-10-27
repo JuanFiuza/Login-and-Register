@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="./img/login.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/login.svg" />
     <title>Login</title>
-    <link rel="stylesheet" href="./style/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
     <div class="Form">
-    <div id="cabecalho">
-        <h1><span><img src="./img/login.svg" alt=""></span>Faça seu login</h1>
+      <div class="cabecalho">
+        <h1>
+          <span><img src="./img/login.svg" alt="" /></span>Faça seu login
+        </h1>
         <p>Entre com suas informações de cadastro.</p>
-    </div>
-    <form action="">
+      </div>
+      <form action="">
         <div class="email">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
         </div>
         <div class="password">
-            <label for="senha">Senha</label>
-            <input type="password" name="pasword" id="password" placeholder="Digite sua senha" required>
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha"
+            required
+          />
         </div>
-<div class="aling-remeber-and-forgout">
-    <div class="remember">
-        <input type="checkbox" name="remember" id="remember">
-        <label for="remember">Lembre-me</label>
-    </div>
-    <div class="forgout">
-        <a href="./recuperacao.html" target="_blank">Esqueci minha senha</a>
-    </div>
-</div>
+        <div class="aling-remeber-and-forgout">
+          <div class="remember">
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Lembre-me</label>
+          </div>
+          <div class="forgout">
+            <a href="./recuperacao.html" target="_blank">Esqueci minha senha</a>
+          </div>
+        </div>
         <div class="btn">
-            <button type="submit">ENTRAR</button>
+          <button type="submit">ENTRAR</button>
         </div>
         <div class="register">
-            <a href="./register.html" target="_blank">Não tem uma conta? <b>Registre-se</b></a>
+          <a href="./register.html" target="_self"
+            >Não tem uma conta? <b>Registre-se</b></a
+          >
         </div>
-    </form>
-</div>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
