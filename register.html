@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/register.css" />
+    <link rel="icon" type="image/x-icon" href="./img/register.svg" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <div class="Form">
+      <form action="">
+        <div class="cabecalho">
+          <h1>
+            <span><img src="./img/register.svg" alt="" /></span>Faça seu
+            Registro
+          </h1>
+          <p>Entre com suas informações de cadastro.</p>
+        </div>
+
+        <div class="user">
+          <label for="user">Usuário</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Digite seu usuário"
+            required
+          />
+        </div>
+
+        <div class="email-register">
+          <label for="email-register">E-mail</label>
+          <input
+            type="email"
+            name="email-register"
+            id="email-register"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </div>
+
+        <div class="password-register">
+          <label for="password-register">Senha</label>
+          <input
+            type="password"
+            name="password-register"
+            id="password-register"
+            placeholder="Digite sua senha"
+            required
+          />
+        </div>
+
+        <div class="confirm-password">
+          <label for="confirm-password">Confirmar Senha</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Confirme sua senha"
+            required
+          />
+        </div>
+
+        <div class="terms">
+          <input type="checkbox" name="terms-servic" id="terms-servic" />
+          <label for="terms-servic"
+            >Li e concordo com os <a href="">termos de serviço.</a></label
+          >
+        </div>
+
+        <div class="btn">
+          <button type="submit">cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
