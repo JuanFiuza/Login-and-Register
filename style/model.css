@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+/*----------------------------------------------------*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #191816 inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #a9afb9 !important;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+/*----------------------------------------------------*/
+.label label {
+  color: #afb6c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/*----------------------------------------------------*/
+.input input {
+  width: 21rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-position: 0.5em;
+  background-size: 1.8em;
+  padding-left: 3em;
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input input::placeholder {
+  color: #a9afb9;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input input:focus {
+  border: 2px solid #00fff0;
+}
+/*----------------------------------------------------*/
+.btn button {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  color: #001432;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.01688rem;
+  text-transform: uppercase;
+  align-items: center;
+  flex-direction: column;
+  width: 21rem;
+  padding: 0.75rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  background: #00fff0;
+}
+.btn button:hover {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(3, 156, 156, 0.81);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(3, 156, 156, 0.81);
+  box-shadow: 0px 0px 10px 5px rgba(3, 156, 156, 0.81);
+}
+/*----------------------------------------------------*/
+.checkbox input[type="checkbox"] {
+  appearance: none;
+  border-radius: 0.25rem;
+  border: 1px solid #868686;
+  width: 20px;
+  height: 20px;
+}
+.checkbox input[type="checkbox"]:checked {
+  border-color: #00fff0;
+  background: url(../img/checkbox.svg) no-repeat #00fff0;
+  background-position: 0.1rem;
+}
+/*----------------------------------------------------*/

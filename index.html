@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../img/login.svg" />
     <title>Login</title>
-    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="./style/model.css" />
+    <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
     <div class="Form">
       <div class="cabecalho">
         <h1>
-          <span><img src="../img/login.svg" alt="" /></span>Faça seu login
+          <span><img src="./img/login.svg" alt="" /></span>Faça seu login
         </h1>
         <p>Entre com suas informações de cadastro.</p>
       </div>
+
       <form action="">
-        <div class="email">
+        <div class="email label input">
           <label for="email">E-mail</label>
           <input
             type="email"
@@ -26,7 +28,7 @@
             required
           />
         </div>
-        <div class="password">
+        <div class="password label input">
           <label for="password">Senha</label>
           <input
             type="password"
@@ -37,24 +39,27 @@
           />
         </div>
         <div class="aling-remeber-and-forgout">
-          <div class="remember">
+          <div class="remember label checkbox">
             <input type="checkbox" name="remember" id="remember" />
             <label for="remember">Lembre-me</label>
           </div>
           <div class="forgout">
-            <a href="recuperacao.html" target="_blank">Esqueci minha senha</a>
+            <a href="./html/recuperacao.html" target="_blank"
+              >Esqueci minha senha</a
+            >
           </div>
         </div>
         <div class="btn">
           <button type="submit">ENTRAR</button>
         </div>
         <div class="register">
-          <a href="register.html" target="_self"
+          <a href="./html/register.html" target="_self"
             >Não tem uma conta? <b>Registre-se</b></a
           >
         </div>
       </form>
     </div>
-    <script src="../JS/index.js"></script>
+
+    <script src="./JS/index.js"></script>
   </body>
 </html>
