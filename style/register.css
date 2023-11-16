@@ -8,13 +8,13 @@ body {
   border-radius: 2.625rem;
   display: grid;
   background-color: #191816;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  justify-content: center;
+  align-content: stretch;
 }
 .placeholder::placeholder {
   color: #a9afb9;
@@ -31,7 +31,6 @@ body {
 .cabecalho {
   display: flex;
   flex-direction: column;
-  margin-top: -9%;
 }
 .cabecalho h1 {
   color: #fff;
@@ -117,6 +116,9 @@ body {
   font-family: Roboto;
   font-weight: 600;
   text-decoration: none;
+}
+.btn{
+  margin-top: 10%;
 }
 /*----------------------------------------------------*/
 @media (max-width: 800px) {
